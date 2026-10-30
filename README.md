@@ -23,7 +23,6 @@ python -m pytest tests/test_api_helpers.py -v
 python -m pytest tests/test_demowebshop_frames_session.py -v
 ```
 
-Live-site tests are skipped **by default**. Change `RUN_LIVE=1` in `.env` after filling out your own demo credentials and checking the live site selectors and current API documentation.
 
 Run one test at a time:
 
